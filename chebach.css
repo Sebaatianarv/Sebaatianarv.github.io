@@ -1,0 +1,74 @@
+body {
+            font-family: 'Roboto', sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #4a90e2 ;
+            color: #444;
+        }
+        header {
+            background-color: #4a90e2;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-family: 'Oswald', sans-serif;
+        }
+        nav {
+            background-color: #283747;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-family: 'Oswald', sans-serif;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+            color: #ffd700;
+        }
+        section {
+            padding: 30px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #333;
+            font-family: 'Oswald', sans-serif;
+            margin-bottom: 15px;
+        }
+        hr {
+            border: 0;
+            height: 2px;
+            background: linear-gradient(to right, #4a90e2, #ffd700);
+            margin: 40px 0;
+        }
+        footer {
+            background-color: #ADD8E6;
+            color: black;
+            text-align: center;
+            padding: 15px 0;
+            bottom: 0;
+            width: 100%;
+            font-size:18px;
+            
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 8px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .highlighted-img {
+            border: 5px solid #4a90e2;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .noticiero {
+            font-family: 'Roboto Slab', serif;
+            font-weight: normal;
+            font-size: 16px;
+            color: #555;
+        }
